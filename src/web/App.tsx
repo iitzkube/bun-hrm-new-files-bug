@@ -1,5 +1,3 @@
-import { Test } from './Test';
-
 export function App() {
   return (
     <div className="app">
@@ -21,7 +19,6 @@ export function App() {
         <li>
           Render <code>{`<Test />`}</code> somehwere in this file
         </li>
-        <Test />
         <li>HMR build crashes</li>
       </ol>
     </div>
